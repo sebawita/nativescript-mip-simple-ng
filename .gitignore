@@ -1,0 +1,6 @@
+*.js
+*.js.map
+*.log
+platforms
+hooks
+node_modules

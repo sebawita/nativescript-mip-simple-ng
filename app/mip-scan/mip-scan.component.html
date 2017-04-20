@@ -1,0 +1,21 @@
+<ActionBar title="Mip Scanner" class="action-bar">
+</ActionBar>
+
+<StackLayout class="page">
+
+  <Label *ngIf="!isBluetoothEnabled" text="Please enable bluetooth" class="text-danger text-center h2"></Label>
+  
+  <StackLayout *ngIf="isBluetoothEnabled">
+    <Label text="List of devices found" class="h2 text-center m-10"></Label>
+    
+    <ListView [items]="devices" (itemTap)="onItemTap(event)" class="list-group">
+      <ng-template let-device="item">
+        <Button [text]="device.name" (tap)="connect(device.UUID)" 
+        class="btn btn-primary btn-grey" ></Button>
+      </ng-template>
+    </ListView>
+
+    <Button text="Scan" (tap)="scan()" class="btn btn-primary" width="75%"></Button>
+  </StackLayout>
+
+</StackLayout>
