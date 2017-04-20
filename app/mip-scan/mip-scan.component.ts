@@ -92,8 +92,3 @@ export class MipScanComponent implements OnInit {
     this.router.navigate(['mipcontroller', UUID]);
   }
 }
-
-interface Device {
-  name: string;
-  UUID: string;
-}

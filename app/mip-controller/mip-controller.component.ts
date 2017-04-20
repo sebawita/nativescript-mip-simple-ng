@@ -2,11 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import bluetooth = require('nativescript-bluetooth');
 import { ActivatedRoute } from '@angular/router';
 
-import { startAccelerometerUpdates, stopAccelerometerUpdates, AccelerometerData } from "nativescript-accelerometer";
+import { startAccelerometerUpdates, stopAccelerometerUpdates, AccelerometerData } from 'nativescript-accelerometer';
 
-import { Observable } from "rxjs/Observable";
+import { Observable } from 'rxjs/Observable';
 import { Subscription } from 'rxjs/Subscription';
-import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/sampleTime';
 
 @Component({
