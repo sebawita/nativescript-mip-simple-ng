@@ -1,40 +1,41 @@
 {
-  "description": "NativeScript Application",
-  "license": "SEE LICENSE IN <your-license-filename>",
-  "readme": "NativeScript Application",
-  "repository": "<fill-your-repository-here>",
   "nativescript": {
     "id": "org.nativescript.nativescriptmipsimpleng",
     "tns-android": {
-      "version": "2.5.0"
+      "version": "5.3.1"
+    },
+    "tns-ios": {
+      "version": "5.3.1"
     }
   },
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "repository": "<fill-your-repository-here>",
   "dependencies": {
-    "@angular/animations": "~4.0.0",
-    "@angular/common": "~4.0.0",
-    "@angular/compiler": "~4.0.0",
-    "@angular/core": "~4.0.0",
-    "@angular/forms": "~4.0.0",
-    "@angular/http": "~4.0.0",
-    "@angular/platform-browser": "~4.0.0",
-    "@angular/platform-browser-dynamic": "~4.0.0",
-    "@angular/router": "~4.0.0",
+    "@angular/animations": "~7.2.0",
+    "@angular/common": "~7.2.0",
+    "@angular/compiler": "~7.2.0",
+    "@angular/core": "~7.2.0",
+    "@angular/forms": "~7.2.0",
+    "@angular/http": "~7.2.0",
+    "@angular/platform-browser": "~7.2.0",
+    "@angular/platform-browser-dynamic": "~7.2.0",
+    "@angular/router": "~7.2.0",
     "nativescript-accelerometer": "^1.0.0",
-    "nativescript-angular": "~1.5.1",
+    "nativescript-angular": "~7.2.0",
     "nativescript-bluetooth": "^1.1.5",
-    "nativescript-theme-core": "~1.0.2",
-    "reflect-metadata": "~0.1.8",
-    "rxjs": "~5.2.0",
-    "tns-core-modules": "2.5.2",
-    "zone.js": "~0.8.2"
+    "nativescript-theme-core": "~1.0.4",
+    "reflect-metadata": "~0.1.12",
+    "rxjs": "~6.3.0",
+    "tns-core-modules": "~5.3.0",
+    "zone.js": "~0.8.26"
   },
   "devDependencies": {
-    "babel-traverse": "6.24.1",
-    "babel-types": "6.24.1",
-    "babylon": "6.17.0",
-    "lazy": "1.0.11",
-    "nativescript-dev-android-snapshot": "^0.*.*",
-    "nativescript-dev-typescript": "~0.3.5",
-    "typescript": "~2.1.0"
-  }
+    "@angular/compiler-cli": "~7.2.0",
+    "@nativescript/schematics": "~0.5.0",
+    "@ngtools/webpack": "~7.2.0",
+    "nativescript-dev-typescript": "~0.9.0",
+    "nativescript-dev-webpack": "~0.21.0"
+  },
+  "readme": "NativeScript Application"
 }
