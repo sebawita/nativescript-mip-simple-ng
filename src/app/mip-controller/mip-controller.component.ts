@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import bluetooth = require('nativescript-bluetooth');
+import * as bluetooth from 'nativescript-bluetooth';
 import { ActivatedRoute } from '@angular/router';
 
 import { startAccelerometerUpdates, stopAccelerometerUpdates, AccelerometerData } from 'nativescript-accelerometer';

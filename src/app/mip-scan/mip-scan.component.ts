@@ -1,5 +1,5 @@
 import { Component, OnInit, NgZone } from '@angular/core';
-import bluetooth = require('nativescript-bluetooth');
+import * as bluetooth from 'nativescript-bluetooth';
 import { Peripheral } from 'nativescript-bluetooth';
 import { Router } from '@angular/router';
 import { Observable, Subscription } from 'rxjs';
